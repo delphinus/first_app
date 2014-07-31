@@ -2,7 +2,10 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.2'
+gem 'rails', github: 'rails/rails'
+gem 'i18n', github: 'svenfuchs/i18n'
+gem 'rack', github: 'rack/rack'
+gem 'arel', github: 'rails/arel'
 # Use sqlite3 as the database for Active Record
 group :development do
     gem 'sqlite3'
